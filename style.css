@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+:root{
+    --bg-color: rgb(255, 153, 0);
+}
+
+body h1{
+    color: var(--bg-color);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    margin:2rem 300px 2rem 300px ;
+    border: 1px solid #cc0e0e;
+    border-radius: 10px;
+    padding: 1.25rem;
+}
+
+.header img{
+    width: 200px;
+    margin-top: 3rem;
+}
+
+.header h1{
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.profile{
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.profile h1{
+    margin: 0.75rem 0 1.5rem 0;
+}
+
+.p2{
+    margin-top: 1.25rem;
+}
+
+.main{
+    padding: 0.5rem 0 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.main ul{
+    margin-left: 1rem;
+    margin-top: 1.25rem;
+}
+
+.graduation{
+    border-bottom: 1px solid #ccc;
+}
+
+.graduation h1{
+    padding: 0.5rem 0 1rem 0;
+}
+
+.graduation p{
+    margin-bottom: 2rem;
+}
+
+.graduation a{
+    text-decoration: underline;
+}
+
+.experience h1{
+    padding: 0.5rem 0 1rem 0;
+}
+
+.experience ol{
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+.experience ul{
+    margin-left: 1rem;
+}
+
+@media (max-width: 480px) {
+    .container{
+        margin: 1.5rem;
+   }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .container{
+        margin: 2rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .container{
+        margin:5rem;
+    }
+}
+
+   
+
+
